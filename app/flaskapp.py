@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "<h1> Bienvenue sur mon site ! </h1>"
+    return "<h1> Bienvenue sur mon site jeune entrepeneur ! </h1>"
 
 @app.route("/visit")
 def counter_incr():
