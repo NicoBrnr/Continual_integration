@@ -6,7 +6,7 @@ services:
   flaskapp:
     build:
       context: ./app
-      dockerfile: Dockerfile.dev
+      dockerfile: "Dockerfile.txt"
     image: flaskapp:latest
     ports: 
       - 1234:80
